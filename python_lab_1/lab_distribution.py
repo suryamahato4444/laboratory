@@ -8,8 +8,9 @@ It should print the two ans for the above question
 '''
 Number=float(input("Enter the number of students in class:"))
 Apple=float(input("Enter the numbers of apples:"))
-div=(Apple/Number)
+div=(Apple//Number)
 rem=(Apple%Number)
+#rem=(Apple-(div*Number))
 print("Each student get",div)
 print("remaining apples are",rem)
 
