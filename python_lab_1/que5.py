@@ -19,4 +19,4 @@ desk_class3=(no_student_class3//2)
 print("The required number of desk in class3 are :",desk_class3)
 
 
-
+print(desk_class1 )
