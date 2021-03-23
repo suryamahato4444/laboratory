@@ -1,4 +1,4 @@
-def sum():
+def sum(a,b):
     #a=int(input("Enter the first number :"))
     #b=int(input("Enter the second number :"))
     c=a+b
@@ -7,11 +7,11 @@ def sum():
 #parameter are the value that taken from outside
 
     #print("Program is not over")
-a=int(input("Enter the first number :"))
-b=int(input("Enter the second number :"))
+x=int(input("Enter the first number :"))
+y=int(input("Enter the second number :"))
 # print(d)
-sum()
-# print(sum(a,b))
+sum(x,y)
+# print(sum(x,y))
 # d=sum(a,b)
 
 #print("Run the program")
