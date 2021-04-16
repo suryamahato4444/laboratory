@@ -7,10 +7,10 @@ def drawCircle(x,y,r):
     pen.goto(x,y-r)
     pen.pendown()
     pen.circle(r)
-drawCircle(0,0,200)
+drawCircle(0,0,100)
     # pen.pendown()
 def makepicture(r):
-    if r<20:
+    if r<100:
         pass
     else:
         drawCircle(0,0,r)
